@@ -1,0 +1,129 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    font-family: sans-serif;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.logo{
+    /* font-size: 26px; */
+    height: 10rem;
+    margin: 0 auto 0 15px;
+}
+.links{
+    margin: 0 auto 0 10px;
+    /* margin-right: auto; */
+}
+.links .nav_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 8px;
+    font-size: 18px;
+    height: 100%;
+}
+.nav_links li {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 8px 0 8px;
+}
+.nav_links li:hover{
+    height: 10vh;
+    background: #598bc9;
+    color: #fff;
+}
+.others{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.others .pro{
+    background-color: rgb(236, 236, 90);
+    color: #000;
+    width: 60px;
+    height: 2.6rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    /* border: 3px solid #fff; */
+
+    font-weight: 600;
+}
+.pro:hover{
+    background-color: #046ec4;
+}
+.others .certify{
+    background-color: pink;
+    /* color: inherit; */
+    color: #000;
+    width: 150px;
+    height: 2.6rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    /* border: 3px solid #fff; */
+
+}
+.certify:hover{
+    background-color: #046ec4;
+}
+.others .useful{
+    font-size: 26px;
+    /* background-color: #598bc9; */
+    height: 2.6rem;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 5px; 
+    color: #fff;
+    font-weight: 600;
+}
+
+.useful .icons{
+    /* background-color: rgb(171, 171, 171); */
+    padding: 6px;
+    /* color: #000; */
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #598bc9;
+    /* border: 3px solid #fff; */
+
+}
+.icons:hover{
+    background-color: #046ec4;
+}
+
+.user{
+    font-size: 25px;
+    margin:  0 10px 0 10px;
+    width: 40px;
+    height: 2.6rem;
+    background-color: #598bc9;
+    border: 3px solid #fff;
+    /* padding: 4px; */
+    border-radius: 50%;
+    display: flex;
+    color: #fff;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+}
+.user:hover{
+    background-color: #046ec4;
+}
