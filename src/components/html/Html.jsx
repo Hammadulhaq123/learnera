@@ -2,21 +2,27 @@ import React from 'react'
 import css from "../html/Html.module.css";
 
 
-const Html = () => {
+const Html = (props) => {
     return (
         <div className={css.container}>
             <div className={css.leftSide}>
-                <h1>HTML</h1>
-                <p>The language for building web pages</p>
-                <div className={css.buttons} style={{background: "#79ff4d"}}>Learn HTML</div>
-                <div className={css.buttons} style={{background: "#ff9933"}}>Video Tutorial</div>
-                <div className={css.buttons} style={{background: "gray"}}>HTML References</div>
-                <div className={css.buttons} style={{background: "pink"}}>Get Certified</div>
+                <div className={css.headings}>
+                    <h1>HTML</h1>
+                    <p>The language for building web pages</p>
+
+                </div>
+                <div className={css.button}>
+                    <div className={css.buttons} style={{background: "#79ff4d"}}>Learn HTML</div>
+                    <div className={css.buttons} style={{background: "#ff9933"}}>Video Tutorial</div>
+                    <div className={css.buttons} style={{background: "gray"}}>HTML References</div>
+                    <div className={css.buttons} style={{background: "pink"}}>Get Certified</div>
+                </div>
+                
             </div>
-            <div className={css.rightSide}>
+            <div className={css.rightSide} style={{background: props.theme==="dark" ? "#0d0d0dc8" : "#e7e9eb", color: props.theme==="dark" ? "#fff" : "#000"}}>
                 <div className={css.box}>
                     <h3>HTML Example:</h3>
-                    <div className={css.texteditor}>
+                    <div className={css.texteditor} style={{background: props.theme==="dark" ? "#0d0d0de6" : "#fff"}}>
                         <pre>
                             &lt;!DOCTYPE html&gt;
                             <br />
