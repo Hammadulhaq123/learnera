@@ -5,7 +5,7 @@ import { ImSearch } from "react-icons/im";
 
 const Hero = (props) => {
   return (
-    <div className={css.wrap} style={{background: props.theme==="dark" ? "#0d0d0d" : "#BFDCE5", color: props.theme==="dark" ? "#fff" : "#046ec4"}}>
+    <div className={css.wrap} style={{background: props.theme==="dark" ? "#0d0d0d" : "#4db2ff	", color: props.theme==="dark" ? "#fff" : "#fff"}}>
         <div className={css.content}>
             <h1>Learn to Code</h1>
             <h4>With the world's largest web developer site.</h4>

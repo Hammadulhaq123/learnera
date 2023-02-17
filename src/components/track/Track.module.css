@@ -1,0 +1,34 @@
+.track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7vh 15px;
+}
+.trackhead{
+    text-align: center;
+}
+.trackpara{
+    font-size: 20px;
+    font-weight: 600;
+}
+.trackimg{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+.track a{
+    text-decoration: none;
+}
+.trackbtn{
+    width: 18rem;
+    border-radius: 50px;
+    height: 3.5rem;
+    background: #046ec4;
+    margin-top: 10vh;
+}
+.trackbtn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}

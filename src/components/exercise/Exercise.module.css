@@ -1,0 +1,48 @@
+.exercise{
+    background-color: #282a35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7vh 20px;
+    color: #fff;
+    border-top: 3px solid #046ec4;
+    border-bottom: 3px solid #046ec4;
+
+
+}
+.exercisename{
+    line-height: 97.5px;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 65px;
+}
+.exercisedes{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+.exercisecont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+}
+.exercisecont a{
+    text-decoration: none;
+    
+}
+.exercisechild{
+    width: 40vw;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    border-radius: 5px;
+    font-weight: 450;
+}
+.exercisechild:hover{
+    opacity: 0.8;
+}

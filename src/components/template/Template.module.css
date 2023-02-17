@@ -1,0 +1,99 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}
+
+
+.template{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10vh 1vw;
+  width: 100%;
+}
+.template a{
+  text-decoration: none;
+}
+.tempcarousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  width: 100%;
+  margin: 5vh 0;
+}
+.tempnext{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #046ec4;
+  color: white;
+  transition: 1s;
+}
+.tempnext:hover{
+  background-color: transparent;
+  border: 2px solid #046ec4;
+  cursor: pointer;
+  color: #046ec4;
+}
+.tempprev{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #046ec4;
+  transition: 1s;
+  color: white;
+}
+.tempprev:hover{
+  background-color: transparent;
+  border: 2px solid #046ec4;
+  color: #046ec4;
+  cursor: pointer;
+}
+.tempimage{
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0 20px;
+  /* border: 2px solid red; */
+  overflow-x: auto;
+  gap: 30px;
+
+}
+.tempimage img{
+  width: 100%;
+  height: 100%;
+  transition: 1s linear;
+}
+
+
+.tempbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 3.5rem;
+  border-radius: 50px;
+  margin-top: 3vh;
+
+}

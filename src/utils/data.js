@@ -159,7 +159,7 @@ export const langs = [
     },
     {
         name: "Statisitics",
-        bg: "##fff4a3",
+        bg: "#fff4a3",
     },
     {
         name: "Data Science",

@@ -19,7 +19,7 @@ const Python = (props) => {
                 </div>
                 
             </div>
-            <div className={css.rightSide} style={{background: props.theme==="dark" ? "#0d0d0dc8" : "#e7e9eb", color: props.theme==="dark" ? "#fff" : "#000"}}>
+            <div className={css.rightSide} style={{background: props.theme==="dark" ? "#1c1c1c" : "#e7e9eb", color: props.theme==="dark" ? "#fff" : "#000"}}>
                 <div className={css.box}>
                     <h3>Python Example:</h3>
                     <div className={css.texteditor} style={{background: props.theme==="dark" ? "#0d0d0de6" : "#fff"}}>
