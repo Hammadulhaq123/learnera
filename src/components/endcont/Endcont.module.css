@@ -1,0 +1,37 @@
+.end{
+    background: #282a35;
+    width: 100vw;
+    /* height: 30vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.end a{
+    text-decoration: none;
+    /* background-color: purple; */
+    margin: 5vh 0 3vh 0;
+    
+    
+}
+.endcont{
+    width: 42vw;
+    height: 7.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.endcont:hover{
+    opacity: 0.8;
+}
+.endname{
+    font-size: 30px;
+    line-height: 67.5px;
+    text-align: center;
+    color: #000;
+    letter-spacing: normal;
+    font-weight: 500;
+}
