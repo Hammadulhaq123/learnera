@@ -4,10 +4,11 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { CgDarkMode, CgSearch } from "react-icons/cg";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { FaUserTie } from "react-icons/fa"
+import { Link } from "react-router-dom";
 const Header = (props) => {
   return (
     <div className={css.wrapper} style={{background: props.theme==="dark" ? "#1c1c1c" : "#fff", color: props.theme==="dark" ? "#fff" : "#598bc9"}}>
-        <img src="./logo.png" className={css.logo}/>
+        <a href="#"><img src="./logo.png" className={css.logo}/></a>
         <div className={css.links}>
             <ul className={css.nav_links}>
                 <li>HOME</li>

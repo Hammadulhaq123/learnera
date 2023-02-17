@@ -12,7 +12,7 @@
 .logo{
     /* font-size: 26px; */
     height: 10rem;
-    margin: 0 auto 0 15px;
+    margin: 0 auto 10px 15px;
 }
 .links{
     margin: 0 auto 0 10px;
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    padding: 0 8px 0 8px;
+    padding: 0 10px 0 10px;
 }
 .nav_links li:hover{
     height: 10vh;
@@ -61,7 +61,8 @@
     font-weight: 600;
 }
 .pro:hover{
-    background-color: #046ec4;
+    background-color: rgb(242, 242, 49);
+    cursor: pointer;
 }
 .others .certify{
     background-color: pink;
@@ -79,7 +80,8 @@
 
 }
 .certify:hover{
-    background-color: #046ec4;
+    cursor: pointer;
+    background-color: rgb(254, 157, 173);
 }
 .others .useful{
     font-size: 26px;
@@ -115,7 +117,7 @@
     width: 40px;
     height: 2.6rem;
     background-color: #598bc9;
-    border: 3px solid #fff;
+    border: 3px solid #046ec4;
     /* padding: 4px; */
     border-radius: 50%;
     display: flex;
