@@ -5,11 +5,13 @@
     align-items: center;
 }
 .content{
-    color: #fff;
+    /* color: #fff; */
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    z-index: 99;
+    /* margin-top: 10vh; */
 }
 h1{
     font-size: 65px;
@@ -22,6 +24,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .input{
     width: 27vw;
@@ -51,7 +54,34 @@ button{
 }
 a{
     font-size: 23px;
-    color: white;
+    color: #046ec4;
     font-weight: 700;
     margin-top: 3vh;
+}
+/* .learnera{
+    font-size: 190px;
+    opacity: 0.1;
+    z-index: 9;
+    font-weight: 900;
+    margin: 0;
+} */
+
+@media(max-width:400px), (max-width:768px){
+    .wrap{
+        height: 60vh;
+    }
+    .input{
+        width: 68vw;
+    }
+    button{
+        width: 18vw;
+        height: 3.2rem;
+    }
+    h1{
+        font-size: 55px;
+    }
+    .content{
+        text-align: center;
+        padding: 10px;
+    }
 }
