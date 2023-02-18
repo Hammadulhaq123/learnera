@@ -52,8 +52,9 @@ button{
     justify-content: center;
     align-items: center;
     outline: none;
+    cursor: pointer;
 }
-a{
+.heroancher{
     font-size: 23px;
     color: #fff;
     font-weight: 700;

@@ -41,7 +41,7 @@ const Js = (props) => {
                             &lt;/html&gt;
                         </pre>
                     </div>
-                    <div className={css.buttons}>
+                    <div className={css.buttons} style={{color: props.theme==="dark" ? "#fff" : "#000"}}>
                         Learn More
                     </div>
                 </div>

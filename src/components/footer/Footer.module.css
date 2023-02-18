@@ -1,0 +1,142 @@
+.footer{
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55vh;
+    padding: 3vh 0;
+    width: 100%;
+    font-size: 17px;
+}
+.footerfirst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.buttonholder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    color: #0d0d0d;
+    margin: 0 auto 0 30px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttonholder button{
+    background-color: white;
+    font-size: 17px;
+    color: black;
+    padding: 8px 12px;
+    width: auto;
+
+    height: 2.6rem;
+    border-radius: 5px;
+}
+.buttonholder button:hover{
+    opacity: 0.89;
+    color: #046ec4;
+}
+.smallbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.largebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.extraforum{
+    font-size: 17px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 30px;
+    letter-spacing: 7px;
+}
+.extraforum .forumright{
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+.forumright:hover{
+    color: #046ec4;
+}
+.aboutleft:hover{
+    color: #046ec4;
+}
+.extraforum .aboutleft{
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+.footericons{
+    display: flex;
+    width: 100%;
+    margin-right: 10%;
+    font-size: 24px;
+    color: white;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-right: 30px; */
+    gap: 20px;
+}
+.footericon{
+    width: 50px;
+    height: 50px;
+    /* background-color: transparent; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footericon:hover{
+    background-color: #fff;
+    color: #046ec4;
+    cursor: pointer;
+
+}
+.footerdes{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    font-weight: 550;
+    padding: 45px;
+
+    width: 97%;
+    height: 30%;
+}
+.footerdes a{
+    text-decoration: underline;
+}
+.footerdes a:hover{
+    color: #046ec4;
+}
+.footerlike{
+    width: 20px;
+    height: 20%;
+    font-size: 35px;
+    color: white;
+}
+.footerlike:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

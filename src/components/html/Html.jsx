@@ -3,10 +3,11 @@ import css from "../html/Html.module.css";
 
 
 const Html = (props) => {
+    
     return (
         <>
-            <svg style={{background:"#D9EEE1"}} width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill={props.theme==="dark" ? "#0d0d0d" : "#4db2ff"}></path>
+            <svg style={{ background: "#D9EEE1" }} width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill={props.theme === "dark" ? "#0d0d0d" : "#4db2ff"}></path>
             </svg>
             <div className={css.container}>
                 <div className={css.leftSide}>

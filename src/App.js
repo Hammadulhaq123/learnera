@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from './components/header/Header';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Hero from "./components/hero/Hero";
 import Html from "./components/html/Html";
 import Css from "./components/css/Css";
@@ -17,7 +17,9 @@ import Track from "./components/track/Track";
 import Pro from "./components/pro/Pro";
 import Exercise from "./components/exercise/Exercise";
 import Template from "./components/template/Template";
-import Kick from "./components/kickstart/Kick"
+import Kick from "./components/kickstart/Kick";
+import Codesnip from "./components/codesnip/Codesnip";
+import Footer from "./components/footer/Footer"
 
 
 function App() {
@@ -29,6 +31,9 @@ function App() {
       setTheme("dark");
     }
   }
+  useEffect(()=>{
+    console.log("this")
+  })
   return (
     <>
       <div className='container'>
@@ -49,6 +54,8 @@ function App() {
         <Exercise theme={theme} />
         <Template theme={theme} />
         <Kick theme={theme} />
+        <Codesnip theme={theme}/>
+        <Footer theme={theme} />
       </div>
     </>
   );
