@@ -11,25 +11,28 @@
 .cls4 {
     fill: #fff;
 }
-.cls4{
+
+.cls4 {
     margin: 0;
 }
+
 .cls2,
 .cls3 {
     font-family: RobotoMono-Medium, Roboto Mono;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .cls3 {
     font-size: 20.08px;
 }
-#w3certarrow{
+
+#w3certarrow {
     width: 50rem;
     height: auto;
 }
 
 
-.kick{
+.kick {
     width: 100%;
     height: 60vh;
     display: flex;
@@ -40,7 +43,8 @@
     /* margin-bottom: 30vh; */
     position: relative;
 }
-.kickcont{
+
+.kickcont {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -49,20 +53,62 @@
     width: 50vw;
     text-align: left;
 }
-.kickname{
+
+.kickname {
     font-size: 60px;
     font-weight: 550;
     line-height: 97.5px;
 }
-.kickdes{
+
+.kickdes {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
 }
-.kickbutton{
+
+.kickbutton {
     width: 15rem;
     height: 3.5rem;
     background-color: #046ec4;
     border-radius: 50px;
     margin-top: 3vh;
+}
+
+.none1 {
+    width: 220px;
+    height: 280px;
+    position: absolute;
+    bottom: 8vh;
+    right: 320px;
+    z-index: 99;
+}
+.none2{
+    width: 300px; height: 300px; display: flex; align-items: center; justify-content: center; position: absolute; bottom: 0vh; right: 20px;
+}
+
+
+@media (max-width:399px),
+(max-width:768px) {
+
+    /* svg{
+        display: none;
+    } */
+    /* path{
+        display: none;
+    }
+    text{
+        display: none;
+    } */
+    .none1 {
+        display: none;
+    }
+    .none2{
+        display: none;
+    }
+
+    .kickcont {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
 }

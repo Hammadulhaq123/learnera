@@ -1,11 +1,12 @@
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent; 
+
 }
  
 /* Handle */
@@ -16,12 +17,10 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: transparent; 
+ 
 }
 
-
-
-
-.template{
+.template {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,52 +29,62 @@
   padding: 10vh 1vw;
   width: 100%;
 }
-.template a{
+
+.template a {
   text-decoration: none;
 }
-.tempcarousel{
+
+.tempcarousel {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-x: auto;
   height: 400px;
+  width: 1080px;
   border-radius: 24px;
   border-collapse: collapse;
   margin: 5vh 0;
+  overflow-y: hidden;
   border: 3px solid #046ec4;
   background-color: #323131;
 }
-.tempnext{
-  width: 50px;
+
+.tempnext {
+  width: 40px;
   height: 100%;
   border-radius: 20px 0 0 20px;
   background-color: #046ec4;
   color: white;
   transition: 1s;
 }
-.tempnext:hover{
+
+.tempnext:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-.tempprev{
-  width: 50px;
+
+.tempprev {
+  width: 40px;
   height: 100%;
   border-radius: 0 20px 20px 0;
   background-color: #046ec4;
   transition: 1s;
   color: white;
 }
-.tempprev:hover{
+
+.tempprev:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-.tempdes{
+
+.tempdes {
   font-size: 20px;
   font-weight: 550;
 }
-.tempimage{
+
+.tempimage {
   display: flex;
-  width: 900px;
+  width: 1000px;
   /* height: 100vh; */
   justify-content: center;
   align-items: center;
@@ -83,10 +92,11 @@
   margin: 0 20px;
   /* border: 2px solid red; */
   overflow-x: auto;
-  gap: 30px;
+  /* gap: 30px; */
 
 }
-.tempimage img{
+
+.tempimage img {
   width: 500px;
   height: 100%;
   transition: 1s linear;
@@ -94,7 +104,7 @@
 }
 
 
-.tempbtn{
+.tempbtn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +114,23 @@
   margin-top: 3vh;
 
 }
-.tempbtn:hover{
+
+.tempbtn:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+@media(max-width:320px),
+(max-width:768px) {
+  .tempcarousel {
+    width: 90%;
+    overflow-y: hidden;
+  }
+  .tempbtn{
+    width: 15rem;
+    margin-top: 1vh;
+  }
+  .temphead{
+    font-size: 50px;
+  }
 }

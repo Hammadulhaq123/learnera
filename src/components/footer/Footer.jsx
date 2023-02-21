@@ -7,15 +7,15 @@ const Footer = () => {
             <div className={css.footerfirst}>
                 <div className={css.buttonholder}>
                     <div className={css.smallbtn}>
-                        <a href="#"><button>HTML</button></a>
-                        <a href="#"><button>HTML</button></a>
-                        <a href="#"><button>HTML</button></a>
+                        <a href="#"><button>Quizzes</button></a>
+                        <a href="#"><button>Exercises</button></a>
+                        <a href="#"><button>Certificates</button></a>
                     </div>
                     <div className={css.largebtn}>
-                        <a href="#"><button>HTML</button></a>
-                        <a href="#"><button>CERTIFICATES</button></a>
-                        <a href="#"><button>HTML</button></a>
-                        <a href="#"><button>HTML</button></a>
+                        <a href="#"><button>Upgrade</button></a>
+                        <a href="#"><button>Spaces</button></a>
+                        <a href="#"><button>Support</button></a>
+                        <a href="#"><button>Newsletter</button></a>
                     </div>
                 </div>
                 <div className={css.extraforum}>

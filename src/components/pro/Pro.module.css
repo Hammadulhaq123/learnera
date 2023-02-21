@@ -41,3 +41,10 @@
     margin-right: 12px;
     /* margin-top: 5px; */
 }
+
+@media(max-width:399px), (max-width:768px){
+    .proheading{
+        text-align: center;
+        font-size: 60px;
+    }
+}

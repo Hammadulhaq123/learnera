@@ -35,3 +35,13 @@
     letter-spacing: normal;
     font-weight: 500;
 }
+
+@media (max-width:399px), (max-width:768px){
+    .medcont{
+        width: 90vw;
+        margin: 10px 0;
+    }
+    .medium a{
+        margin: 0;
+    }
+}

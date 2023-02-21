@@ -102,7 +102,7 @@ export const langs = [
         bg: "#96d4d4",
     },
     {
-        name: "Cyber Security",
+        name: "Cyber",
         bg: "#d9eee1",
     },
     {
@@ -166,7 +166,7 @@ export const langs = [
         bg: "#f3ecea",
     },
     {
-        name: "Typing Speed",
+        name: "Typing",
         bg: "#96d4d4",
     },
 

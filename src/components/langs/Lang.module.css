@@ -36,3 +36,27 @@
     letter-spacing: normal;
     font-weight: 500;
 }
+
+@media (max-width:768px){
+    .langcont{
+        width: 42vw;
+        margin: 10px 0;
+    }
+    .langs a{
+        margin: 0;
+    }
+}
+@media(max-width:399px){
+    .langname{
+        line-height: normal;
+    }
+    .langcont{
+        width: 95vw;
+        margin: 10px 0;
+        /* margin-bottom: 10px; */
+    }
+    .langs a{
+        margin: 0;
+    }
+}
+

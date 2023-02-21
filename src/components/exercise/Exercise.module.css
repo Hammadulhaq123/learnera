@@ -47,3 +47,16 @@
 .exercisechild:hover{
     opacity: 0.8;
 }
+
+@media(max-width:399px), (max-width:768px){
+    .exercisename{
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .exercisecont{
+        flex-wrap: wrap;
+    }
+    .exercisechild{
+        width: 80vw;
+    }
+}

@@ -42,7 +42,7 @@
     align-items: center;
     padding: 5px;
     background: #598bc9;
-    /* color: #fff; */
+    color: #000;
     box-shadow: rgba(255, 255, 255, 0.15) 2.95px 2.95px 2.6px;
 
 }
@@ -94,7 +94,7 @@ input{
 }
 
 
-@media(max-width:400px), (max-width:768px){
+@media(max-width:320px), (max-width:768px){
     .container{
         flex-wrap: wrap;
     }
@@ -102,6 +102,12 @@ input{
         width: 90%;
         margin: 3vh 0;
 
+    }
+    .headings h1{
+        font-size: 60px;
+    }
+    .headings p{
+        font-size: 18px;
     }
 
     .rightSide{

@@ -32,13 +32,21 @@
     color: white;
 }
 
-.buttonholder button{
+.smallbtn button{
     background-color: white;
     font-size: 17px;
     color: black;
     padding: 8px 12px;
     width: auto;
-
+    height: 2.6rem;
+    border-radius: 5px;
+}
+.largebtn button{
+    background-color: white;
+    font-size: 17px;
+    color: black;
+    padding: 8px 12px;
+    width: auto;
     height: 2.6rem;
     border-radius: 5px;
 }
@@ -120,7 +128,6 @@
     line-height: 30px;
     font-weight: 550;
     padding: 45px;
-
     width: 97%;
     height: 30%;
 }
@@ -139,4 +146,55 @@
 .footerlike:hover{
     opacity: 0.8;
     cursor: pointer;
+}
+
+
+@media(max-width:499px), (max-width:768px){
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .footerfirst{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        margin: 50px 0;
+    }
+    .buttonholder{
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+
+    }
+    .smallbtn{
+        flex-direction: row;
+        margin: 0;
+        height: auto;
+        width: 280px;
+
+    }
+    .smallbtn button{
+        width: 95px;
+        padding: 3px;
+    }
+    .largebtn{
+        flex-direction: column;
+        width: 70%;
+        margin: 0;
+        height: auto;
+
+    }
+    .largebtn button{
+        margin: 0;
+        width: 300px;
+    }
+    .extraforum{
+        margin: 20px 0 0 0 ;
+    }
+    .footericons{
+        margin: 10px 30px 0px 0;
+    }
+    .footerdes{
+        width: 85%;
+    }
 }

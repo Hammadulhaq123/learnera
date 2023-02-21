@@ -55,3 +55,15 @@
     text-decoration: none;
     color: white;
 }
+@media (max-width:399px), (max-width:768px){
+    .bigcont{
+        width: 95%;
+        margin: 10px 0;
+    }
+    .bigbutton{
+        width: 40%;
+    }
+    .biggies{
+        padding: 3vh 0;
+    }
+}

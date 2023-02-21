@@ -106,7 +106,7 @@ input {
 
 
 
-@media(max-width:400px),
+@media(max-width:320px),
 (max-width:768px) {
     .container {
         flex-wrap: wrap;
@@ -117,6 +117,13 @@ input {
         margin: 3vh 0;
 
     }
+    .headings h1{
+        font-size: 60px;
+    }
+    .headings p{
+        font-size: 18px;
+    }
+
 
     .rightSide {
         display: none;

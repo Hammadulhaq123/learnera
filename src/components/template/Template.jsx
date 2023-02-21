@@ -7,10 +7,10 @@ import { FcPrevious, FcNext } from "react-icons/fc";
 
 const Template = () => {
   const moveForward = () => {
-    document.querySelector(".tempimage").scrollBy(500, 0);
+    document.querySelector(".tempimage").scrollBy(450, 0);
   }
   const moveBackward = () => {
-    document.querySelector(".tempimage").scrollBy(-500,0);
+    document.querySelector(".tempimage").scrollBy(-450,0);
   }
   return (
     <>

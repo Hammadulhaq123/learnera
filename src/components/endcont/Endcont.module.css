@@ -35,3 +35,15 @@
     letter-spacing: normal;
     font-weight: 500;
 }
+
+@media (max-width:399px), (max-width:768px){
+    .endcont{
+        width: 95vw;
+    }
+    .end a{
+        margin: 10px 0;
+    }
+    .end{
+        padding-bottom: 3vh;
+    }
+}

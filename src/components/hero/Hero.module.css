@@ -68,7 +68,7 @@ button{
     margin: 0;
 } */
 
-@media(max-width:400px), (max-width:768px){
+@media(max-width:320px), (max-width:768px){
     .wrap{
         height: 60vh;
     }
@@ -80,10 +80,16 @@ button{
         height: 3.2rem;
     }
     h1{
-        font-size: 55px;
+        font-size: 50px;
+    }
+    h4{
+        font-size: 24px;
     }
     .content{
         text-align: center;
         padding: 10px;
+    }
+    .heroancher{
+        font-size: 20px;
     }
 }
