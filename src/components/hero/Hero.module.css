@@ -38,7 +38,7 @@ h4{
     font-weight: 700;
 
 }
-button{
+.herobutton{
     width: 7vw;
     padding: 10px;
     background-color: #046ec4;
@@ -53,6 +53,9 @@ button{
     align-items: center;
     outline: none;
     cursor: pointer;
+}
+.herobutton:hover{
+    opacity: 0.8;
 }
 .heroancher{
     font-size: 23px;

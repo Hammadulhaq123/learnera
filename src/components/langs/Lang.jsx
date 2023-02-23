@@ -9,7 +9,7 @@ const Langs = () => {
     <div className={css.langs}>
       {langs.map((lang, i) => {
               return (
-                <a href="#">
+                <a href="#" key={i}>
                 <div className={`flexCenter ${css.langcont}`} style={{background: lang.bg}}>
                     <span className={css.langname}>{lang.name}</span>
                 </div>

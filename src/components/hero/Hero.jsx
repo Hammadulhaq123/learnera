@@ -14,7 +14,7 @@ const Hero = (props) => {
             </div> */}
             <div className={css.search}>
                 <input type="text" className={css.input}placeholder='Search our tutorials e.g. HTML'/>
-                <button type="submit" style={{background: props.theme==="dark" ? "#046ec4" : "#046ec4"}}><ImSearch /></button>
+                <button className={css.herobutton} type="submit" ><ImSearch /></button>
             </div>
             <a href="https://www.facebook.com" className={css.heroancher}>Not Sure Where To Begin?</a>
         </div>

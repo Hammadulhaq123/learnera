@@ -9,7 +9,7 @@ const Biggies = () => {
     <div className={css.biggies}>
       {comments.map((comment, i) => {
               return (
-                <div className={`flexCenter ${css.bigcont}`} style={{background: comment.bg}}>
+                <div key={i} className={`flexCenter ${css.bigcont}`} style={{background: comment.bg}}>
                     <span className={css.bigname}>{comment.name}</span>
                     <p className={css.bigdes}>{comment.description}</p>
                     <button className={css.bigbutton}><a href="#">{comment.button}</a></button>
